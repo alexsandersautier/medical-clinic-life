@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:wght@400;600&display=swap');
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Inter';
 }
-
+section{
+    display: flex;
+    flex-direction: column;
+}
 .textUpperCase{
     text-transform: uppercase; 
 }
@@ -10,3 +15,81 @@
     color: #000;
     font-weight: bold;
 }
+
+/* start menu */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00CAD1;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+}
+nav .logo a img{
+    width: 150px;
+    margin-left: 15px;
+}
+nav .menu{
+    margin-right: 15px;
+}
+
+nav .menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 15px;
+}
+/* end menu */
+/*-------------------------------------------------*/
+/* start main title */
+section .main-title{
+    background-size: 100%;
+    background-image: url('assets/recepcao.png');
+    background-repeat: repeat-y;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+section .main-title .internal{
+    margin-top: 17%;
+    margin-left: 10px;
+    font-size: 29px;
+    color: #fff;
+}
+/* end main title */
+/*-------------------------------------------------*/
+/* start about */
+section .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .about h2{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+section .about p{
+    margin-bottom: 25px;
+    text-align: center;
+    color: #6b6767;
+}
+.about-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #6b6767;
+}
+.container-about ul{
+    font-weight: 800;
+}
+.container-about ul{
+    margin-top: 25px;
+    margin-left: 35px;
+}
+/* end about */
+/*-------------------------------------------------*/
+/* start mult */
+/* end mult */
+/*-------------------------------------------------*/
