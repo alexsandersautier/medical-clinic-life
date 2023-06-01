@@ -128,7 +128,7 @@ section .about p{
     color: #6b6767;
 }
 .container-mult a{
-    margin: 40px auto;
+    margin: 40px 0px 20px 0px;
     background-color: #00CAD1;
     color: #fff;
     text-decoration: none;
@@ -139,4 +139,24 @@ section .about p{
     background-color: #03888d;
 }
 /* end mult */
+/*-------------------------------------------------*/
+/* start contact */
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6b6767;
+}
+#contact h3{
+    color: #3f3d3d;
+    margin: 15px 0;
+}
+#contact p{
+    margin: 15px 0;
+    text-align: center;
+}
+#contact iframe{
+    width: 95%;
+}
+/* end contact */
 /*-------------------------------------------------*/
