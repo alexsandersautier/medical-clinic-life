@@ -160,3 +160,29 @@ section .about p{
 }
 /* end contact */
 /*-------------------------------------------------*/
+/* start footer */
+footer{
+    margin-top: 40px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #0C6E71;
+    align-items: center;
+}
+.footer img{
+    margin-top: 25px;
+    width: 100px;
+}
+.footer p{
+    margin: 10px;
+    color: #fff;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer .end{
+    margin-bottom: 30px;
+}
+/* end footer */
