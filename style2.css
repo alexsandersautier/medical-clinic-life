@@ -110,7 +110,7 @@ tbody tr:nth-child(odd) {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-        width: 88%;
+        width: 100%;
     }
     .container .link a{
         margin: auto;
@@ -138,7 +138,7 @@ tbody tr:nth-child(odd) {
         padding-bottom: 4%;
     }
 }
-@media (max-width: 768px){
+@media (min-width: 426px) and (max-width: 768px){
 
     .container .link{
         width: 70%;
