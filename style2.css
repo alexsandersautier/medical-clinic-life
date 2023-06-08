@@ -1,65 +1,176 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:wght@400;600&display=swap');
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Inter';
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
 }
-    .container .link{
-        /* border: 1px solid; */
-        margin: 20px auto;
-    }
-    .container .link a{
-        text-decoration: none;
-        color: #000;
-        border-bottom: 3px solid #00CAD1;
-        margin-right: 15px;
-    }
-    .container h2{
-        margin: 15px auto;
-        color: #5f5b5b;
-        font-weight: bold;
+
+.container .link {
+    /* border: 1px solid; */
+    margin: 20px auto;
+}
+
+.container .link a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 3px solid #00CAD1;
+    margin-right: 15px;
+}
+
+.container h2 {
+    margin: 15px auto;
+    color: #5f5b5b;
+    font-weight: bold;
+}
+
+.container .header-specialties {
+    text-align: center;
+}
+
+.container .header-specialties h3 {
+    color: #5f5b5b;
+    margin: 15px
+}
+
+.container .header-specialties p {
+    color: #5f5b5b;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 1%;
+}
+
+.container .table {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 300px;
+}
+
+.container .table img {
+    width: 35%;
+}
+
+.container .table table {
+    width: 65%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.container .table table thead {
+    background-color: #00CAD1;
+    color: #fff;
+    line-height: 58px;
+}
+
+th,
+td {
+    padding-left: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #cac5c5;
+}
+
+@media (max-width: 425px) {
+    nav {
+        flex-direction: column;
+        height: 130px;
+        /* background-color: #6b6767; */
+
     }
 
-    .container .header-specialties{
+    nav .logo {
+        margin-top: 10px;
         text-align: center;
+        /* background-color: #6b6767; */
     }
-    .container .header-specialties h3{
-        color: #5f5b5b;
-        margin: 15px
-    }
-    .container .header-specialties p{
-        color: #5f5b5b;
-        margin: 15px
-    }
-    .container .table{
+
+    nav .menu {
+        /* background-color: #6b6767; */
+        border-top: 1px solid #51a0a3;
         display: flex;
         flex-direction: row;
-        width: 98%;
-        height: 300px;
+        padding: 10px 10px 10px 0px;
+        justify-content: space-around;
     }
 
-    .container .table img{
-        width: 35%;
+    nav .menu a {
+        font-size: 15px;
     }
-    .container .table table{
-        width: 65%;
-        text-align: left;
-        border-collapse: collapse;
+
+    .container .link{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 88%;
     }
-    .container .table table thead{
-        background-color: #00CAD1;
-        color: #fff;
-        line-height: 58px;
+    .container .link a{
+        margin: auto;
+        align-self: center;
     }
-    th,td{
-        padding-left: 10px;
+    .container .table img {
+        width: 0;
     }
-    tbody tr:nth-child(odd) {
-        background-color: #cac5c5;
-      }
+    section .container{
+        width: 100%;
+    }
+    .container .table table {
+        width: 100%;
+        font-size: 13px;
+    }
+    .container .table{
+        width: 100%;
+    }
+    .container h2 {
+        margin-bottom: 0;
+    }
+
+    .container .header-specialties p{
+        width: 100%;
+        padding-bottom: 4%;
+    }
+}
+@media (max-width: 768px){
+
+    .container .link{
+        width: 70%;
+    }
+    .container .link a{
+        margin: auto 0 auto auto;
+        align-self: center;
+        margin-right: 2.5%;
+    }
+    .container .table img {
+        width: 0;
+    }
+    section .container{
+        width: 100%;
+    }
+    
+    .container .table{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .container h2 {
+        margin-bottom: 0;
+    }
+
+    .container .header-specialties p{
+        width: 100%;
+        padding-bottom: 4%;
+    }
+    .container .header-specialties p{
+        width: 70%;
+    }
+    .container .table table {
+        width: 95%;
+    }
+}
