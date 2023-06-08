@@ -40,7 +40,7 @@
     .container .table{
         display: flex;
         flex-direction: row;
-        width: 85%;
+        width: 98%;
         height: 300px;
     }
 
